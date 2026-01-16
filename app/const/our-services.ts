@@ -24,7 +24,7 @@ export const services: ServiceOverviewCardProps[] = [
   },
   {
     serviceImageUrl: "/images/services/printing-services.jpg",
-    serviceTitle: "Printing Services",
+    serviceTitle: "Printing & Packaging Services",
     serviceDescription:
       "We offer all types of printing solutions tailored to your needs—whether it’s paper, fabric, wood, plastic, or even metal. From business cards to custom merchandise, we print on virtually any surface with precision and quality.",
     servicePageLinkUrl: "/services/printing-services",
