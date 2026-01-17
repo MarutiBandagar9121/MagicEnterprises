@@ -1,5 +1,5 @@
 import ServiceOverviewCard from "./service-overview-card";
-import { services } from "../../const/our-services";
+import { services } from "../../data/our-services";
 
 export default function OurServicesSection() {
     

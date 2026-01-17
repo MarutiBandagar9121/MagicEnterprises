@@ -29,22 +29,21 @@ export default function Footer() {
 
             {/* Address */}
             <div className="mt-6 space-y-3 text-sm">
-              <div className="flex items-start gap-3">
+              <div className="flex items-start gap-3 max-w-80">
                 <RiMapPin2Line className="w-5 h-5 mt-0.5 text-gray-400" />
                 <span>
-                  Office No 12, ABC Complex, <br />
-                  Pune, Maharashtra, India
+                  353, Shaniwar Peth, Radha Krushna Building, A8 Shop, Appa Balwant Chowk, Opp Prabath Theater, Pune-411030
                 </span>
               </div>
 
               <div className="flex items-center gap-3">
                 <RiPhoneLine className="w-5 h-5 text-gray-400" />
-                <span>+91 98765 43210</span>
+                <span>+91 7040332527 | +91 7744087354</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <RiMailLine className="w-5 h-5 text-gray-400" />
-                <span>hello@magicprintsmedia.com</span>
+                <span>magicenterprises16@gmail.com</span>
               </div>
             </div>
 

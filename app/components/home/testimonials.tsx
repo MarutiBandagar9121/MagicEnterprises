@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { RiStarFill } from '@remixicon/react';
-import { testimonialsData } from '../../const/testimonial-data';
+import { testimonialsData } from '../../data/testimonial-data';
 
 export interface Testimonial {
   id: number;
@@ -37,7 +37,7 @@ const StarRating = ({ rating }: { rating: number }) => {
 
 export default function Testimonials() {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-16 md:py-24 bg-linear-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
@@ -97,7 +97,7 @@ export default function Testimonials() {
                     </div>
 
                     {/* Testimonial content */}
-                    <p className="text-gray-700 text-lg mb-6 flex-grow italic">
+                    <p className="text-gray-700 text-lg mb-6 grow italic">
                       &ldquo;{testimonial.content}&rdquo;
                     </p>
 
@@ -132,28 +132,8 @@ export default function Testimonials() {
           </Swiper>
 
           {/* Custom Navigation Buttons */}
-          <div className="swiper-button-prev !hidden md:!flex !w-12 !h-12 !bg-white !shadow-lg !rounded-full !text-gray-800 after:!text-lg"></div>
-          <div className="swiper-button-next !hidden md:!flex !w-12 !h-12 !bg-white !shadow-lg !rounded-full !text-gray-800 after:!text-lg"></div>
-        </div>
-
-        {/* Stats (Optional) */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">98%</div>
-            <div className="text-gray-600">Client Satisfaction</div>
-          </div>
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">500+</div>
-            <div className="text-gray-600">Projects Delivered</div>
-          </div>
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">50+</div>
-            <div className="text-gray-600">Countries Served</div>
-          </div>
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">24/7</div>
-            <div className="text-gray-600">Support Available</div>
-          </div>
+          <div className="swiper-button-prev hidden! md:flex! w-12! h-12! bg-white! shadow-lg! rounded-full! text-gray-800! after:text-lg!"></div>
+          <div className="swiper-button-next hidden! md:flex! w-12! h-12! bg-white! shadow-lg! rounded-full! text-gray-800! after:text-lg!"></div>
         </div>
       </div>
     </section>
