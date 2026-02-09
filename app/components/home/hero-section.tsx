@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function HeroSection() {
@@ -14,9 +15,11 @@ export default function HeroSection() {
           unique needs. Transform your brand’s identity with our Expert services
           and Quality craftsmanship.
         </p>
+        <Link href="/contact-us">
         <button className="mt-4 px-6 py-2 text-white bg-blue-700 hover:bg-blue-600 rounded-4xl transition">
           Get Started
         </button>
+        </Link>
       </div>
     </div>
   );

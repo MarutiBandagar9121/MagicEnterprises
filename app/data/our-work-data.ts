@@ -13,7 +13,7 @@ export interface WorkCategory {
 
 export const workData: WorkCategory[] = [
   {
-    id: "visiting-cards",
+    id: "graphic-design",
     title: "Visiting Cards",
     description: "Premium business cards for various clients",
     images: [
@@ -26,7 +26,7 @@ export const workData: WorkCategory[] = [
     ],
   },
   {
-    id:"logos",
+    id:"logo-design",
     title: "Logos",
     description: "Creative logo designs for brand identity",
     images: [
@@ -43,7 +43,7 @@ export const workData: WorkCategory[] = [
     ]
   },
   {
-    id: "pamphlets",
+    id: "printing-packaging",
     title: "Pamphlets & Flyers",
     images: [
       { src: "/images/our-work/pamphlets/dks-biryani.jpg", client: "DKS Biryani" },
@@ -57,7 +57,7 @@ export const workData: WorkCategory[] = [
     ],
   },
   {
-    id: "brochures",
+    id: "brochure-design",
     title: "Brochures",
     images: [
       { src: "/images/our-work/brochure/pms.jpg", client: "PMS Security" },
@@ -73,7 +73,7 @@ export const workData: WorkCategory[] = [
     ],
   },
   {
-    id: "gift-articles",
+    id: "customized-gift-articles",
     title: "Gift Articles",
     images: [
       { src: "/images/our-work/gift-articles/magic-mug.png", client: "Magic Mug" },
@@ -85,7 +85,7 @@ export const workData: WorkCategory[] = [
     ],
   },
   {
-    id: "web-designs",
+    id: "web-dev-services",
     title: "Web Designs",
     images: [
       { src: "/images/our-work/web-design/web1.jpeg", client: "" },

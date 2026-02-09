@@ -17,6 +17,7 @@ export default function OurServicesSection() {
                         serviceTitle={service.serviceTitle}
                         serviceDescription={service.serviceDescription}
                         servicePageLinkUrl={service.servicePageLinkUrl}
+                        serviceSectionId={service.serviceSectionId}
                     />
                 ))}
             </div>

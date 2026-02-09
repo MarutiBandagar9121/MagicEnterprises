@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { RiWhatsappFill, RiLinkedinFill, RiFacebookFill, RiGlobalLine } from '@remixicon/react';
+import { RiWhatsappFill, RiFacebookFill} from '@remixicon/react';
 
 export interface TeamCardProps {
   imageUrl: string;

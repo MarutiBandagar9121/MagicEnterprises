@@ -19,7 +19,7 @@ export default function OurWorkSection() {
 
       <div className="space-y-20">
         {workData.map((category) => (
-          <div key={category.id}>
+          <div key={category.id} id={`${category.id}`}>
             <div className="mb-8">
               <h3 className="text-2xl font-semibold">{category.title}</h3>
               {category.description && (

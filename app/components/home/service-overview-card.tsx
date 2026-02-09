@@ -7,6 +7,7 @@ export interface ServiceOverviewCardProps {
   serviceTitle?: string;
   serviceDescription?: string;
   servicePageLinkUrl?: string;
+  serviceSectionId:string;
 }
 
 export default function ServiceOverviewCard({
@@ -14,11 +15,12 @@ export default function ServiceOverviewCard({
   serviceTitle,
   serviceDescription,
   servicePageLinkUrl,
+  serviceSectionId
 }: ServiceOverviewCardProps) {
   return (
     <div
       className="service-overview-card bg-white p-6 rounded-lg shadow-md border-2
-         border-gray-300 flex flex-col hover:border-primary hover:shadow-lg transition-all duration-300"
+         border-gray-300 flex flex-col hover:border-primary hover:shadow-lg transition-all duration-300" id={`${serviceSectionId}`}
     >
       {/* image section */}
       <div className="service-image flex justify-center">
@@ -44,7 +46,7 @@ export default function ServiceOverviewCard({
       {/* service nav section */}
       <div className="service-link mt-4">
         <a
-          href={servicePageLinkUrl}
+          href={`${servicePageLinkUrl}#${serviceSectionId}`}
           className="w-full text-black text-left hover:underline"
         >
           <RiArrowRightCircleFill className="inline mr-2" />

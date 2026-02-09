@@ -100,6 +100,7 @@ export default function ContactForm() {
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       // Here you would typically send the data to your backend
+      await fetch("/api/contact", { method: "POST", body: JSON.stringify(formData) });
       console.log('Form submitted:', formData);
       
       // Reset form
@@ -160,7 +161,7 @@ export default function ContactForm() {
                 className={`w-full px-4 py-3 rounded-lg border ${
                   errors.name ? 'border-red-300' : 'border-gray-300'
                 } focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition`}
-                placeholder="Pooja Sharma"
+                placeholder="Nutan Thakur"
               />
               {errors.name && (
                 <p className="mt-1 text-sm text-red-600">{errors.name}</p>
@@ -203,7 +204,7 @@ export default function ContactForm() {
               className={`w-full px-4 py-3 rounded-lg border ${
                 errors.email ? 'border-red-300' : 'border-gray-300'
               } focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition`}
-              placeholder="pooja@gmail.com"
+              placeholder="nutan@gmail.com"
             />
             {errors.email && (
               <p className="mt-1 text-sm text-red-600">{errors.email}</p>
