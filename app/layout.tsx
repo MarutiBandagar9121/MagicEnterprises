@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Orbitron } from "next/font/google";
+import { Geist, Geist_Mono, Pacifico } from "next/font/google";
 import Navbar from "./components/common/navbar";
 import Footer from "./components/common/footer";
 import "@/app/globals.css";
@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const orbitron = Orbitron({
+const pacifico = Pacifico({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-orbitron",
+  weight: ["400"],
+  variable: "--font-pacifico",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +27,8 @@ export const metadata: Metadata = {
     default: "Printing & Graphic Design Services in Shaniwar Peth, Pune",
     template: "%s | Magic Colours Print Media Pune",
   },
-  description: "Professional printing and graphic design services in Shaniwar Peth, Pune. Visiting cards, brochures, t-shirt printing, bottle printing and more. Fast delivery & premium quality.",
+  description:
+    "Professional printing and graphic design services in Shaniwar Peth, Pune. Visiting cards, brochures, t-shirt printing, bottle printing and more. Fast delivery & premium quality.",
 
   openGraph: {
     type: "website",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/web-app-manifest-192x192.png",
   },
-  manifest: "/site.webmanifest",
+  // manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -61,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en-IN">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${orbitron.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
       >
         <Navbar />
         {children}
