@@ -28,37 +28,37 @@ const service: serviceCardType[] = [
     serviceTitle: "Hospital Stationery & Forms",
     serviceDescription:
       "Prescription pads, case papers, patient files, billing books, writing pads, letterheads, envelopes, and all customized hospital stationery.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/hospital-forms.jpg",
   },
   {
     serviceTitle: "Printed Bedsheets & Fabric Branding",
     serviceDescription:
       "Durable, hygienic, and professionally printed hospital bedsheets, pillow covers, curtains, and fabric branding solutions.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/hospital_beds.jpg",
   },
   {
     serviceTitle: "Standies, Banners & Flex Printing",
     serviceDescription:
       "Informational standees, safety boards, directional signage, awareness banners, and large-format flex printing for hospitals.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/hospital_branding.jpg",
   },
   {
     serviceTitle: "Medical Branding & Signage",
     serviceDescription:
       "Department boards, OPD/IPD signages, reception branding, and clear hospital navigation systems.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/medical_sinage.jpg",
   },
   {
     serviceTitle: "Printing Inks & Supply Materials",
     serviceDescription:
       "Quality printing inks and consumables for healthcare facilities requiring in-house printing support.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/printing_inks.jpg",
   },
   {
     serviceTitle: "Complete Custom Print Solutions",
     serviceDescription:
       "We handle bulk hospital requirements — from small stationery to large-scale branding and print production.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/healthcare/hospital_custom_print_solution.jpg",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function HospitalEssentialsPage() {
       <ServiceImageBlock
         title="Reliable Print & Supply Partner for Healthcare Sector"
         description="Healthcare institutions require precision, consistency, and timely delivery. We work closely with hospitals, clinics, nursing homes, and diagnostic centers to supply customized stationery, printed bedsheets, branding materials, and medical printing essentials. Our solutions are designed to maintain professionalism, hygiene standards, and operational efficiency."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/healthcare/helathcare_service_provider.jpg"
       />
 
       {/* SERVICES GRID */}
@@ -110,7 +110,7 @@ export default function HospitalEssentialsPage() {
       <ServiceImageBlock
         title="Why Healthcare Providers Trust Magic Prints Media"
         description="We understand the importance of accuracy, durability, and timely supply in the healthcare sector. Our team ensures bulk production capability, consistent print quality, hygienic fabric handling, and long-term supply support. We aim to become a dependable partner for hospitals and medical institutions across Pune."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/healthcare/hospital_emergency.jpg"
         reverse
       />
 

@@ -29,37 +29,37 @@ const service: serviceCardType[] = [
     serviceTitle: "In-House Perfume Manufacturing",
     serviceDescription:
       "We develop and manufacture a wide variety of high-quality fragrances with long-lasting performance and premium formulations.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perf_inhouse.jpg",
   },
   {
     serviceTitle: "Private Label & Retail Supply",
     serviceDescription:
       "Bulk perfume supply for retailers, distributors, and brands looking to launch their own fragrance line.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perf_private_labelling.jpg",
   },
   {
     serviceTitle: "Custom Bottle Selection",
     serviceDescription:
       "Wide range of premium perfume containers in different shapes, finishes, and spray mechanisms to match your brand identity.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perf_custom_bottle.jpg",
   },
   {
     serviceTitle: "Bottle Printing & Branding",
     serviceDescription:
       "High-quality printing directly on perfume bottles including logo printing shows, name personalization, and premium finishing options.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perfume_bottle_printing.jpg",
   },
   {
     serviceTitle: "Luxury Packaging Boxes",
     serviceDescription:
       "Fancy custom-printed perfume boxes with rigid, matte, gloss, embossed, and premium finishing options.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perf_prmium_packaging.jpg",
   },
   {
     serviceTitle: "Complete Brand Launch Support",
     serviceDescription:
       "From fragrance formulation to packaging and retail-ready production — we support end-to-end perfume brand creation.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/perfumes/perf_brand.jpg",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function PerfumeManufacturingPage() {
       <ServiceImageBlock
         title="Crafted Fragrances with Premium Packaging"
         description="We manufacture perfumes in-house with carefully developed fragrance compositions designed for long-lasting performance. Our wide variety of perfume options caters to different market segments — from affordable retail collections to luxury premium lines. With complete control over manufacturing and packaging, we ensure consistent quality and branding excellence."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/perfumes/perf_manuf.jpg"
       />
 
       {/* SERVICES GRID */}
@@ -111,7 +111,7 @@ export default function PerfumeManufacturingPage() {
       <ServiceImageBlock
         title="Why Choose Magic Prints Media for Perfume Manufacturing?"
         description="We combine fragrance development, premium bottle sourcing, advanced printing capabilities, and high-end packaging under one roof. Our ability to print directly on perfume bottles and design luxury custom boxes gives brands a competitive edge. Whether you need bulk wholesale supply or a custom private label launch, we deliver quality, consistency, and elegance."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/perfumes/perfume_why_us.jpg"
         reverse
       />
 

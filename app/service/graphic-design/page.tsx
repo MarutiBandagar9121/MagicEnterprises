@@ -28,37 +28,37 @@ const service: serviceCardType[] = [
     serviceTitle: "Logo Design & Brand Identity",
     serviceDescription:
       "Memorable, strategic logo designs that define your brand personality and build strong recognition in the Pune market.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/logo_and_branding.jpg",
   },
   {
     serviceTitle: "Brochure & Catalogue Design",
     serviceDescription:
       "Professionally crafted brochures and catalogues that communicate your products and services with clarity and elegance.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/brochure_and_catolgue.jpg",
   },
   {
     serviceTitle: "Social Media Creatives",
     serviceDescription:
       "Eye-catching social media designs tailored to boost engagement, brand awareness, and conversions across platforms.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/social_media.jpg",
   },
   {
     serviceTitle: "Visiting Card & Stationery Design",
     serviceDescription:
       "Premium business cards and stationery designs that leave a lasting impression and reflect your brand identity.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/visiting_cards.jpg",
   },
   {
     serviceTitle: "Poster, Banner & Flex Design",
     serviceDescription:
       "High-impact promotional designs optimized for print clarity, visibility, and marketing effectiveness.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/poster_design.png",
   },
   {
     serviceTitle: "Packaging Design",
     serviceDescription:
       "Creative packaging solutions that enhance product appeal and strengthen shelf presence in competitive markets.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/about-us/packaging_design.jpg",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function GraphicDesignPage() {
       <ServiceImageBlock
         title="Creative Branding & Visual Identity"
         description="Your brand deserves a strong identity. We design professional logos, brand guidelines, business stationery, and marketing materials that leave a lasting impression. Our graphic design team in Pune focuses on strategy-driven creativity that helps your business stand out in a competitive market."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/about-us/creative_branding_section.jpg"
       />
 
       {/* SERVICES GRID */}
@@ -112,7 +112,7 @@ export default function GraphicDesignPage() {
       <ServiceImageBlock
         title="Why We Are the Best Graphic Design Company in Pune"
         description="We combine creativity with printing expertise, ensuring every design is production-ready and visually stunning. Our commitment to quality, timely delivery, and customer satisfaction has made us one of Pune’s most trusted graphic design and printing partners."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/about-us/design_studio.jpg"
         reverse
       />
 

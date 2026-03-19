@@ -1,9 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #0f2854;
-  --background: #0f2854;
-  --foreground: #ffffff;
+  /* Core Brand */
+  --primary: #0f2854;         /* Deep Navy Blue — dominant brand color */
+  --accent: #D62828;          /* Bold Orange-Red — CTA, highlights, energy */
+
+  /* Backgrounds */
+  --background: #0f2854;      /* Default dark background */
+  --background-alt: #0a1e3d;  /* Slightly deeper navy for section contrast */
+  --background-light: #f5f7fa;/* Light sections / cards on light pages */
+
+  /* Foreground / Text */
+  --foreground: #ffffff;       /* Primary text on dark backgrounds */
+  --foreground-muted: #a0aec0; /* Subtext, captions, secondary labels */
+  --foreground-dark: #0f2854;  /* Text on light backgrounds */
+
+  /* Accent Variants */
+  --accent-hover: #b91f1f;    /* Darker red for hover states */
+  --accent-light: #ff4444;    /* Brighter red for glows or highlights */
+
+  /* Borders & Dividers */
+  --border: rgba(255, 255, 255, 0.1);
+  --border-accent: rgba(214, 40, 40, 0.4);
+
+  /* Utility */
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --radius: 0.75rem;
 }
 
 @theme inline {

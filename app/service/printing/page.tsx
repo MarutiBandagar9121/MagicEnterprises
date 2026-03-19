@@ -29,37 +29,37 @@ const service: serviceCardType[] = [
     serviceTitle: "Offset Printing",
     serviceDescription:
       "High-quality bulk printing solution ideal for brochures, catalogues, magazines, and corporate stationery with sharp colors and precision.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/offset_printing.jpg",
   },
   {
     serviceTitle: "Digital Printing",
     serviceDescription:
       "Fast, cost-effective digital printing for business cards, flyers, posters, and short-run marketing materials with vibrant output.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/digital_print.jpg",
   },
   {
     serviceTitle: "Screen Printing",
     serviceDescription:
       "Durable and bold printing solution perfect for t-shirts, promotional products, packaging, and industrial applications.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/screen_printing.jpg",
   },
   {
     serviceTitle: "Flex & Banner Printing",
     serviceDescription:
       "Large-format printing for banners, hoardings, backdrops, and outdoor promotions with weather-resistant materials.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/flex_printing.jpg",
   },
   {
     serviceTitle: "Sublimation Printing",
     serviceDescription:
       "Premium sublimation printing for mugs, t-shirts, ID cards, gifts, and customized merchandise with long-lasting color quality.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/tshirt_printing.jpg",
   },
   {
     serviceTitle: "Custom Surface Printing",
     serviceDescription:
       "We print on almost any surface based on your requirement — acrylic, wood, metal, foam boards, vinyl, and more.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/printing/custom_print.jpg",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function PrintingServicesPage() {
       <ServiceImageBlock
         title="Complete Printing Solutions Under One Roof"
         description="Whether you need bulk offset printing, quick digital prints, or customized promotional merchandise, our printing unit in Pune is equipped with advanced machinery and skilled professionals. We focus on color accuracy, material quality, and flawless finishing to ensure every project meets the highest standards."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/printing/printing_overview.jpg"
       />
 
       {/* SERVICES GRID */}
@@ -112,7 +112,7 @@ export default function PrintingServicesPage() {
       <ServiceImageBlock
         title="Why Choose Magic Prints Media for Printing in Pune?"
         description="We combine cutting-edge printing technology with years of hands-on experience. Our team ensures color precision, durable materials, timely delivery, and competitive pricing. From corporate clients to small businesses, we are trusted for consistency, transparency, and exceptional print quality."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/printing/print_with_us.jpg"
         reverse
       />
 

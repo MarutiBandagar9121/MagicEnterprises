@@ -28,37 +28,37 @@ const service: serviceCardType[] = [
     serviceTitle: "Office Essentials & Stationery Gifts",
     serviceDescription:
       "Premium diaries, writing pads, pens, organizers, and branded office essentials customized with your company logo and identity.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/office_sta.jpg",
   },
   {
     serviceTitle: "Customized Drinkware",
     serviceDescription:
       "Personalized mugs, magic mugs, tea coasters, and premium drinkware with high-quality sublimation and print finishes.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/cus_drinkware.jpg",
   },
   {
     serviceTitle: "Apparel & Utility Merchandise",
     serviceDescription:
       "Custom printed bags, umbrellas, raincoats, canopies, tents, and branded merchandise ideal for promotions and events.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/apparel.jpeg",
   },
   {
     serviceTitle: "Luxury & Premium Gifts",
     serviceDescription:
       "Custom perfumes with printed names, decorative lamps, and premium curated gift sets designed to leave a lasting impression.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/luxury_gifting.jpg",
   },
   {
     serviceTitle: "Event & Promotional Gifting",
     serviceDescription:
       "Bulk corporate gifts for exhibitions, conferences, product launches, and employee engagement programs.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/event_promotion.jpg",
   },
   {
     serviceTitle: "Fully Customized Solutions",
     serviceDescription:
       "We print and customize on almost any merchandise as per your requirement — tailored gifting solutions that match your brand.",
-    serviceImage: "/images/about-us/image.png",
+    serviceImage: "/images/corpgifting/cus_gift.jpg",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function CorporateGiftingPage() {
       <ServiceImageBlock
         title="Strengthen Relationships with Branded Corporate Gifts"
         description="Corporate gifting is more than just a gesture — it’s a strategic way to build relationships with employees, clients, and partners. We offer fully customized gifting solutions including diaries, pens, mugs, bags, umbrellas, raincoats, perfumes, writing pads, coasters, tents, canopies, lamps, and much more. Whether you need bulk promotional gifts or premium executive hampers, we ensure quality, elegance, and brand visibility."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/corpgifting/gifting.jpg"
       />
 
       {/* SERVICES GRID */}
@@ -110,7 +110,7 @@ export default function CorporateGiftingPage() {
       <ServiceImageBlock
         title="Why Choose Magic Prints Media for Corporate Gifting?"
         description="We combine creative printing expertise with premium sourcing and customization capabilities. Whether it's logo printing, sublimation, engraving, or name personalization, we ensure high-quality finishes and timely bulk delivery. Our goal is to make your brand memorable through thoughtful and impactful gifting."
-        imgPath="/images/about-us/image.png"
+        imgPath="/images/corpgifting/gifting_why_us.jpg"
         reverse
       />
 
